@@ -8,237 +8,176 @@
        
     <body>
         <div id="bloc_page">
-       
-        <header>
-            <div id="header">
+           <header class="header" >            
             <img id="logo_reservia" src="images/logo/Reservia@3x.png" alt="logo_reservia">
-            
-                <ul id="info">
-                    <li><a id="li1" href="#">Hébergements</a></li>
-                    <li><a href="#">Activités</a></li>
-                    <li><a href="#">S'inscrire</a></li>
-                </ul>          
-            </div>
-        </header>
+              <nav class="headerNav">
+              <a class="headerNavlien" href="Hebergement">Hébergement</a>
+              <a class="headerNavlien" href="Activités">Activités</a>
+              </nav>
+              <a class="headerSignup" href="#">S'inscrire</a>
+           </header>
 
-        
-            <h1>Trouvez votre hébergement pour des vacanse de reve</h1>
+          
+        <!-- partie juste en dessous de Header -->
+
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
-            <input class="barrederecherche" type="search" placeholder="Marseille, France" size="1"
+            <input class="barrederecherche" type="search" placeholder="Marseille, France" size="1">
        
-            <!-- partie juste en dessous de l'entete -->
-
+           
+          <!-- partie Hébergement  a marseille -->
             <div id="contenerGlobal">    	
-                <div id="case1">
+                <section id="case1">
                     <header class="titreCase">
                         <h2>Hébergement à Marseille</h2>
                     </header>
                     <div id="premierligne">
-
-                  
-                    <div class="BulleA">
+                    <article class="BulleA">
                         <figure>
-                            <p><img class="photosA" src="images/hebergements/4_small/fred.jpg"
-                             alt="photo-min_fred"></p>
-                          <figcaption>Hotel du port<br>
-                        Nuit a partir de <em>52e</em></figcaption>
-                          </figure>
-                    </div>                       
-                        <div class="BulleA">
-                            <figure>
-                                <p><img class="photosA" src="images/hebergements/4_small/fred.jpg"
-                                alt="photo-min_fred"></p>
-                              <figcaption>Hotel du port<br>
-                            Nuit a partir de <em>52e</em></figcaption>
-                              </figure>
-                        </div>
-                        <div class="BulleA">
-                            <figure>
-                                <p><img class="photosA" src="images/hebergements/4_small/reisetopia.jpg"
-                                alt="photo-min_reisetopia"></p>
-                              <figcaption>Hotel les mouettes<br>
-                            Nuit a partir de <em>25e</em></figcaption>
-                              </figure>                     
-                        </div>
-                        </div>
-
-                
+                            <p><img class="photosA" src="images/hebergements/4_small/marcus.jpg"
+                             alt="photo-min_Marcus"></p>
+                          <figcaption>Auberge la Cannebière<br>
+                          Nuit à  partir de <em>25€</em></figcaption>
+                        </figure>
+                    </article>                       
+                    <article class="BulleA">
+                      <figure>
+                        <p><img class="photosA" src="images/hebergements/4_small/fred.jpg" alt="photo-min_Fred"></p>
+                          <figcaption>Hôtel du port<br>
+                            Nuit à  partir de <em>52€</em>
+                          </figcaption>
+                      </figure>
+                    </article>
+                    <article class="BulleA">
+                      <figure>
+                        <p><img class="photosA" src="images/hebergements/4_small/reisetopia.jpg" alt="photo-min_Reisetopia"></p>
+                          <figcaption>Hôtel Les mouettes<br>
+                            Nuit à partir de <em>76€</em>
+                          </figcaption>
+                      </figure>                     
+                      </article>
+                    </div>
                     <div id="deuxiemligne">
-                        <div class="BulleA">
-                            <figure>
-                                <p><img class="photosA" src="images/hebergements/4_small/aw.jpg" alt="Photo_de_aw"/></p>
-                              <figcaption>Hotel les mouettes<br>
-                            Nuit a partir de <em>25e</em></figcaption>
-                              </figure>  
-                        </div>
-                        <div class="BulleA">
-                            <figure>
-                                <p><img class="photosA" src="images/hebergements/4_small/reisetopia.jpg"
-                                alt="photo-min_reisetopia"></p>
-                              <figcaption>Hotel les mouettes<br>
-                            Nuit a partir de <em>25e</em></figcaption>
-                              </figure>  
-                        </div>
-                        <div class="BulleA">
-                            <figure>
-                                <p><img class="photosA" src="images/hebergements/4_small/reisetopia.jpg"
-                                alt="photo-min_reisetopia"></p>
-                              <figcaption>Hotel les mouettes<br>
-                            Nuit a partir de <em>25e</em></figcaption>
-                              </figure>                       
-                        </div>
+                      <article class="BulleA">
+                        <figure>
+                          <p><img class="photosA" src="images/hebergements/4_small/annie.jpg" alt="Photo_de_Annie"/></p>
+                            <figcaption>Hôtel de la mer<br>
+                            Nuit à partir de <em>46€</em>
+                            </figcaption>
+                        </figure>  
+                        </article>
+                        <article class="BulleA">
+                          <figure>
+                            <p><img class="photosA" src="images/hebergements/4_small/nicate.jpg" alt="photo-min_Nicate"></p>
+                              <figcaption>Auberge Le Panier<br>
+                                Nuit à partir de <em>23€</em>
+                              </figcaption>
+                          </figure>  
+                        </article>
+                        <article class="BulleA">
+                          <figure>
+                            <p><img class="photosA" src="images/hebergements/4_small/febrian.jpg" alt="photo-min_Febrian"></p>
+                              <figcaption>Hôtel chez Amina<br>
+                               Nuit à partir de <em>96€</em>
+                              </figcaption>
+                            </figure>                       
+                        </article>
                     </div>
+                 </section>                                  
+                 <section id="case2">
+                  <header class="populaire">
+                    <h2>Les plus populaires</h2>
+                  </header>
+                    <div id="ligneB">
+                      <article class="BulleB">
+                        <figure>
+                          <p><img class="photosB" src="images/hebergements/4_small/emile.jpg" alt="photo-min_Emile"></p>
+                            <figcaption>Hôtel Le soleil du matin<br>
+                              Nuit à partir de <em>128€</em>
+                            </figcaption>
+                        </figure>                       
+                      </article>
+                      <article class="BulleB">
+                        <figure>
+                          <p><img class="photosB" src="images/hebergements/4_small/aw.jpg" alt="photo-min_Aw"></p> 
+                            <figcaption>Au Cœur de l'eau<br>Chambres d'hôtes<br>
+                                Nuit à partir de <em>71€</em>
+                            </figcaption>
+                        </figure>                       
+                        </article>
+                        <article class="BulleB">
+                          <figure>
+                            <p><img class="photosB" src="images/hebergements/4_small/febrian1.jpg" alt="photo-min_Febrian1"></p>
+                              <figcaption>Hôtel Tout bleu et Blanc<br>
+                                Nuit à partir de <em>68€</em>
+                              </figcaption>
+                          </figure>                       
+                        </article>
                     </div>
-
-
-                    
-                    <div id="case2">
-                        <header class="populaire">
-                            <h2>Les plus populaire </h2>
-                        </header>
-                        <div id="ligneB">
-                        <div class="BulleB">
-                            <figure>
-                                <p><img class="photosB" src="images/hebergements/4_small/reisetopia.jpg"
-                                alt="photo-min_reisetopia"></p>
-                              <figcaption>Hotel les mouettes<br>
-                            Nuit a partir de <em>25e</em></figcaption>
-                              </figure>                       
-                        </div>
-                        <div class="BulleB">
-                            <figure>
-                                <p><img class="photosB" src="images/hebergements/4_small/reisetopia.jpg"
-                              alt="photo-min_reisetopia"></p>
-                              <figcaption>Hotel les mouettes<br>
-                            Nuit a partir de <em>25e</em></figcaption>
-                              </figure>                       
-                            </div>
-                        <div class="BulleB">
-                            <figure>
-                                <p><img class="photosB" src="images/hebergements/4_small/reisetopia.jpg"
-                                alt="photo-min_reisetopia"></p>
-                              <figcaption>Hotel les mouettes<br>
-                            Nuit a partir de <em>25e</em></figcaption>
-                              </figure>                       
-                        </div>
-                        </div>
-    
-            
-                    </div>     
+                </section>     
             </div>
-        
-             
-        
             <header class="activite_marseille">
-                <h2>Activités a marseille</h2>
+              <h2>Activités a marseille</h2>
             </header>
             <div id="contenerGloba2">
-              
-
-                <div id="case3">
-                    
-                    <div class="blocA">
+              <section id="case3">
+                <article class="blocA">
+                  <figure>
+                    <p><img class="photosB" src="images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo-max_Reno"></p>
+                      <figcaption>Vieux Port</figcaption>
+                  </figure>       
+                </article>
+                <article class="blocB">
+                  <figure>
+                    <p><img class="photosB" src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo-moyen_Paul"></p>
+                      <figcaption>Fort de Pomègues</figcaption>
+                       </figure>  
                         <figure>
-                            <p><img class="photosB" src="images/hebergements/4_small/reisetopia.jpg"
-                            alt="photo-min_reisetopia"></p>
-                          <figcaption>Hotel les mouettes<br>
-                        Nuit a partir de <em>25e</em></figcaption>
-                          </figure>  
-
-                          <figure>
-                            <p><img class="photosB" src="images/hebergements/4_small/reisetopia.jpg"
-                            alt="photo-min_reisetopia"></p>
-                          <figcaption>Hotel les mouettes<br>
-                        Nuit a partir de <em>25e</em></figcaption>
-                          </figure>  
-                    </div>
-                    <div class="blocB">
-                        <figure>
-                            <p><img class="photosB" src="images/hebergements/4_small/reisetopia.jpg"
-                            alt="photo-min_reisetopia"></p>
-                          <figcaption>Hotel les mouettes<br>
-                        Nuit a partir de <em>25e</em></figcaption>
-                          </figure>  
-                    </div>
-                   
-                </div>
-        
-        
-                <div id="case4">
-                    <div class="blocA">
-                    <figure>
-                        <p><img class="photosB" src="images/hebergements/4_small/reisetopia.jpg"
-                        alt="photo-min_reisetopia"></p>
-                      <figcaption>Hotel les mouettes<br>
-                    Nuit a partir de <em>25e</em></figcaption>
-                      </figure>  
-
-                      <figure>
-                        <p><img class="photosB" src="images/hebergements/4_small/reisetopia.jpg"
-                        alt="photo-min_reisetopia"></p>
-                      <figcaption>Hotel les mouettes<br>
-                    Nuit a partir de <em>25e</em></figcaption>
-                      </figure>  
-                    </div>
-                
-                <div class="blocB">
-                    <figure>
-                        <p><img class="photosB" src="images/hebergements/4_small/reisetopia.jpg"
-                        alt="photo-min_reisetopia"></p>
-                      <figcaption>Hotel les mouettes<br>
-                    Nuit a partir de <em>25e</em></figcaption>
-                      </figure>  
-                </div>
-                
-        
-                </div>    
-                </div>    
-            
-    
-       
-
-     <footer>
-        <div id="conteneurGlobal3">
-            <div id="footerA">
-            <div class="footerli">
-                <h2>A propos</h2>
-                <ul>
-                    <li>Fonctionnement du site</li>
-                    <li>Conditions générales de vente</li>
-                    <li>Données et confidentialités</li>
-                </ul>
-            </div>
-
-            <div class="footerli">
-                <h2>Nos hébergements</h2>
-                <ul>
-                    <li>Charte qualité</li>
-                    <li>Soumettre votre hotel</li>
-                   
-                </ul>
-                </div>
-
-
-                <div class="footerli">
-                <h2>Assistance</h2>  
-                <ul>
-                    <li>Centre d'aide</li>
-                    <li>Nous contacter</li>   
-                </ul>>
-
+                          <p><img class="photosB" src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo-moyen-Kevin"></p>
+                          <figcaption>Îles du Frioul</figcaption>
+                        </figure> 
+                  </article>
+               </section>              
+               <section id="case4">
+                <article class="blocA">
+                  <figure>
+                    <p><img class="photosB" src="images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo-max-Kilyan"></p>
+                      <figcaption>Parc National des Calanques</figcaption>
+                  </figure>  
+                </article>
+                <article class="blocB">
+                  <figure>
+                    <p><img class="photosB" src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo-moyen-FLorian"></p>
+                      <figcaption>Notre-Dame-de-la-Garde</figcaption>
+                  </figure>                        
+                  <figure>
+                    <p><img class="photosB" src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo-moyen-Lena"></p>
+                      <figcaption>Parc Longchamp</figcaption>
+                  </figure>  
+                </article>
+                </section>    
             </div>  
-            </div>
-            </div>
-        </div>
+          <footer>
+           <div id="conteneurGlobal3">
+            <div class="footer1">
+             <h3>A propos</h3>
+             <a class="footercase1" href="#">Fonctionnement du site</a>
+             <a class="footercase1" href="#">Conditions générales de vente</a>
+             <a class="footercase1" href="#">Données et confidentialités</a>
+             </div> 
+             
+             <div class="footer2">
+              <h3>Nos hébergement</h3>
+              <a class="footercase1" href="#">Charte qualité</a>
+              <a class="footercase1" href="#">Soumettre votre hotel</a>
+              </div> 
 
-
-     </footer>
-
-
-
-
+              <div class="footer3">
+                <h3>Assistance</h3>
+                <a class="footercase1" href="#">Centre d'aide</a>
+                <a class="footercase1" href="#">Nous contacter</a>
+                </div> 
+          </footer>
     </div>
-
-    </body>
-
+  </body>
 </html>

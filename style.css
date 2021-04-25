@@ -9,7 +9,7 @@ body {
 }
 
 #bloc_page {
-  width: 900px;
+  width: 1200px;
   margin: auto;
 }
 
@@ -20,27 +20,23 @@ h1 {
   font-family: "Raleway";
 }
 
-#header {
+.header {
   display: flex;
   justify-content: space-between;
 }
-
-#info {
-  list-style: none;
-  padding-right: 50px;
-  display: flex;
-  margin: 6px;
+.headerNav{
+  padding: 2rem;
+font-weight: 500;
+text-align: center;
 }
+
 
 #logo_reservia {
   padding: 0 2rem;
   height: 2.813rem;
 }
 
-#li1 {
-  color: crimson;
-  font-weight: bold;
-}
+
 
 .barrederecherche {
   border-right: none;
@@ -62,13 +58,13 @@ h1 {
 
 #contenerGlobal {
   display: flex;
-  background-color: yellow;
   width: 100%;
   height: 35rem;
+  justify-content: space-between;
 }
 
 #case1 {
-  background-color: rgb(242, 242, 242);
+  background-color: #F2F2F2;
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
   border-top-left-radius: 24px;
@@ -77,10 +73,10 @@ h1 {
   padding-left: 32px;
   padding-right: 32px;
   padding-top: 8px;
-  border: solid;
   width: 55%;
   display: flex;
   flex-direction: column;
+  border-radius: 1.5rem;
 }
 #premierligne {
   display: flex;
@@ -88,7 +84,7 @@ h1 {
 .BulleA {
   display: flex;
   justify-content: space-between;
-  background-color: blueviolet;
+  border: solid;
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
   border-top-left-radius: 24px;
@@ -104,7 +100,7 @@ h1 {
 }
 
 #case2 {
-  background-color: rgb(242, 242, 242);
+  background-color: #F2F2F2;
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
   border-top-left-radius: 24px;
@@ -113,18 +109,17 @@ h1 {
   padding-left: 32px;
   padding-right: 32px;
   padding-top: 8px;
-  border: solid;
   width: 20%;
 }
 .BulleB {
   display: flex;
   justify-content: space-between;
-  background-color: blueviolet;
+  border: solid;
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
-  height: 190px;
+  height: 140px;
 }
 .photosB {
   width: 90px;
@@ -132,13 +127,13 @@ h1 {
 }
 #contenerGloba2 {
   display: flex;
-  background-color: rgb(111, 0, 255);
   width: 100%;
   height: 30rem;
 }
 
 #case3 {
-  background-color: rgb(242, 242, 242);
+  display: flex;
+  background-color: #F2F2F2;
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
   border-top-left-radius: 24px;
@@ -147,11 +142,10 @@ h1 {
   padding-left: 32px;
   padding-right: 32px;
   padding-top: 8px;
-  border: solid;
   width: 50%;
 }
 #case4 {
-  background-color: rgb(242, 242, 242);
+  background-color: #F2F2F2;
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
   border-top-left-radius: 24px;
@@ -160,32 +154,36 @@ h1 {
   padding-left: 32px;
   padding-right: 32px;
   padding-top: 8px;
-  border: solid;
   width: 50%;
   display: flex;
 }
 
-#conteneurGlobal3 {
-  background-color: crimson;
-  width: 100%;
+#conteneurGlobal3{
   display: flex;
-  height: 17rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: space-around;
-  align-items: center;
-  align-content: flex-start;
 }
-#case3 {
+.footer1{
   display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
 }
-.bloc {
+.footer2{
   display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
 }
-.footerli {
-  list-style: none;
-}
-#footerA {
+.footer3{
   display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
 }
+a{
+  color: inherit;
+text-decoration: none;
+}
+
+
+
+
+
+
