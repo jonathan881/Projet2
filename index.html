@@ -8,13 +8,15 @@
        
     <body>
         <div id="bloc_page">
-           <header class="header" >            
+           <header class="header">            
             <img id="logo_reservia" src="images/logo/Reservia@3x.png" alt="logo_reservia">
+            <section class="headerlien">
               <nav class="headerNav">
-              <a class="headerNavlien" href="Hebergement">Hébergement</a>
-              <a class="headerNavlien" href="Activités">Activités</a>
+              <a class="headerNavlien" href="#Hébergement">Hébergement</a>
+              <a class="headerNavlien" href="#Activités">Activités</a>
               </nav>
-              <a class="headerSignup" href="#">S'inscrire</a>
+              <a class="headerSignup" href="#S'inscrire">S'inscrire</a>
+              </section>
            </header>
 
           
@@ -23,13 +25,36 @@
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
             <input class="barrederecherche" type="search" placeholder="Marseille, France" size="1">
+            <button>Rechercher</button>
+
+            <div class="rechercheFiltres">
+              <h2 class="rechercheFiltresTitre>">Filtres</h2>
+           
+            <div class="Filtreseco">
+              <div class="Filtresecologo">logo</div>
+              <span class="Filtreecotitre">économique</span>
+            </div>
+            <div class="Filtresefami">
+              <div class="Filtresecologo">logo</div>
+              <span class="Filtreecotitre">Familial</span>
+            </div>
+            <div class="Filtresroman">
+              <div class="Filtresecologo">logo</div>
+              <span class="Filtreecotitre">Romantique</span>
+            </div>
+            <div class="Filtresanimaux">
+              <div class="Filtresecologo">logo</div>
+              <span class="Filtreecotitre">Animaux autorisés</span>
+            </div>
+
+            </div>
        
            
           <!-- partie Hébergement  a marseille -->
             <div id="contenerGlobal">    	
                 <section id="case1">
                     <header class="titreCase">
-                        <h2>Hébergement à Marseille</h2>
+                        <h2><a name="Hébergement">Hébergement à Marseille</a></h2>
                     </header>
                     <div id="premierligne">
                     <article class="BulleA">
@@ -117,7 +142,7 @@
                 </section>     
             </div>
             <header class="activite_marseille">
-              <h2>Activités a marseille</h2>
+              <h2><a name="Activités">Activités a marseille</a></h2>
             </header>
             <div id="contenerGloba2">
               <section id="case3">
