@@ -13,8 +13,10 @@ body {
   width: 1200px;
   margin: auto;
 }
+.bloclogo{
+  padding: 1rem 0rem;
+}
 #logo_reservia {
-  padding: 0 2rem;
   height: 2.813rem;
 }
 
@@ -66,18 +68,21 @@ text-align: center;
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
-.rechercheFiltres{
-  display: flex;
-  width: 100%;
-  margin-top: 2rem;
-  justify-content: space-around;
-  align-items: center;
+.bouttonrecherche{
+  background-color: #0065FC;
+color: white;
+font-weight: bold;
+border: none;
+border-radius: 0 1rem 1rem 0;
+padding: 0 1.5rem;
+cursor: pointer;
 }
 .rechercheFiltres{
+  justify-content: space-between;
+  align-items: center;
   width: 75%;
   display: flex;
 margin-top: 2rem;
-flex-wrap: wrap;
   
 }
 .filtregeneral{
@@ -85,6 +90,7 @@ border: 2px solid #d9d9d9;
 border-radius: 2rem;
 display: flex;
 align-items: center;
+cursor: pointer;
 }
 
 .Filtresroman, .Filtresanimaux, .Filtreseco, .Filtresefami{
@@ -92,14 +98,20 @@ align-items: center;
   align-items: center;
   margin-right: 2rem;
   font-weight: bold;
+  
 }
 .Filtresecologo{
   margin: 0px 10px;
   color: blue;
- 
- 
 }
-
+.resultatrecherche{
+  display: flex;
+  align-items: center;
+  
+}
+.resultatrechercheicone{
+  margin: 0px 20px;
+}
 #contenerGlobal {
   display: flex;
   width: 100%;
@@ -149,7 +161,7 @@ figcaption{
   width: 30%;
   background-color:#FFFFFF;
   height: 100%;
-  
+  cursor: pointer;
 }
 .photosA {
   width: 90%;
@@ -186,6 +198,7 @@ figcaption{
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
   height: 140px;
+  cursor: pointer;
 }
 .photosB {
   width: 90px;

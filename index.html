@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="style.css"/>
@@ -11,8 +11,10 @@
        
     <body>
         <div id="bloc_page">
-           <header class="header">            
+           <header class="header"> 
+             <div class="bloclogo">           
             <img id="logo_reservia" src="images/logo/Reservia@3x.png" alt="logo_reservia">
+            </div>
             <section class="headerlien">
               <nav class="headerNav">
               <a class="headerNavlien" href="#Hébergement">Hébergement</a>
@@ -27,8 +29,9 @@
 
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
+            <i class="fas fa-map-marker-alt"></i>
             <input class="barrederecherche" type="search" placeholder="Marseille, France" size="1">
-            <button>Rechercher</button>
+            <button class="bouttonrecherche">Rechercher</button>
 
             <div class="rechercheFiltres">
               <h2 class="rechercheFiltresTitre>">Filtres</h2>
@@ -66,13 +69,20 @@
             </div>
 
             </div>
-       
+            <div class="resultatrecherche">
+              <div class="resultatrechercheicone">
+                <i class="fas fa-info"></i>
+              </div>
+              <p class="resultatrecherchetexte">Plus de 500 logements
+                sont disponibles dans cette ville
+              </p>
+            </div>
            
           <!-- partie Hébergement  a marseille -->
             <div id="contenerGlobal">    	
                 <section id="case1">
                     <header class="titreCase">
-                        <h2><a name="Hébergement">Hébergement à Marseille</a></h2>
+                        <h2><a id="Hébergement">Hébergement à Marseille</a></h2>
                     </header>
                     <div id="premierligne">
                     <article class="BulleA">
@@ -160,7 +170,7 @@
                 </section>     
             </div>
             <header class="activite_marseille">
-              <h2><a name="Activités">Activités a marseille</a></h2>
+              <h2><a id="Activités">Activités a marseille</a></h2>
             </header>
             <div id="contenerGloba2">
               <section id="case3">
