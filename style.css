@@ -6,7 +6,8 @@
 
 body {
   font-family: 'Raleway', Verdana, sans-serif;
-
+  width: 100%;
+  max-height: 100%;
 }
 
 #bloc_page {
@@ -19,13 +20,14 @@ body {
 #logo_reservia {
   height: 2.813rem;
 }
-
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
   margin-bottom: 0.67em;
 }
-
+h3{
+  font-size: 15px;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -33,7 +35,18 @@ h1 {
 .headerlien{
   display: flex;
 }
+.headerNav1{
+  border-top: 3px solid #0065FC;
+  padding: 2rem;
+}
 
+.headerNav2:hover{
+  border-top: 3px solid #0065FC;
+  padding: 2rem;
+}
+.headerNav2{
+  padding: 2rem;
+}
 .headerNav{
   padding: 2rem;
 font-weight: 500;
@@ -42,22 +55,18 @@ text-align: center;
 .headerNavlien{
   padding: 2rem;
 }
-
-
 .headerSignup{
   padding: 2rem;
 }
 .barregeneral{
   display: flex;
 }
-
 .iconemaposition{
-  background-color: #F2F2F2;
+background-color: #F2F2F2;
 padding: 1rem 1.25rem;
 border-radius: 1rem 0 0 1rem;
 text-align: center;
 }
-
 .barrederecherche {
   border-right: none;
   border-left: none;
@@ -70,7 +79,6 @@ text-align: center;
   font-weight: bold;
   font-family: "Raleway", "Sans serif";
 }
-
 [type="search"] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
@@ -92,7 +100,9 @@ max-height: 100%;
   width: 75%;
   display: flex;
 margin-top: 2rem;
-  
+}
+.rechercheFiltresTitre{
+  margin-right: 15px;
 }
 .filtregeneral{
 border: 2px solid #d9d9d9;
@@ -101,26 +111,48 @@ display: flex;
 align-items: center;
 cursor: pointer;
 height: 50px;
+margin: 5px;
 }
-
 .Filtresroman, .Filtresanimaux, .Filtreseco, .Filtresefami{
   display: flex;
   align-items: center;
   margin-right: 2rem;
   font-weight: bold;
-  
 }
 .Filtresecologo{
-  margin: 0px 10px;
-  color: blue;
+background-color: #DEEBFF;
+border-radius: 100%;
+height: 3rem;
+width: 3rem;
+min-height: 3.5rem;
+min-width: 3.5rem;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: -2px;
+}
+.Filtreecotitre{
+  margin: 0 1rem;
 }
 .resultatrecherche{
   display: flex;
   align-items: center;
-  
 }
 .resultatrechercheicone{
-  margin: 0px 20px;
+  height: 2rem;
+width: 2rem;
+min-height: 2rem;
+min-width: 2rem;
+border: solid 1px #d9d9d9;
+border-radius: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 1rem;
+}
+.fa, .fas {
+  font-weight: 900;
+  color: blue;
 }
 #contenerGlobal {
   display: flex;
@@ -138,16 +170,15 @@ height: 50px;
   border-bottom-right-radius: 24px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
-  padding-bottom: 32px;
+  padding-bottom: 1%;
   padding-left: 32px;
   padding-right: 32px;
-  padding-top: 8px;
   width: 55%;
   display: flex;
   flex-direction: column;
   border-radius: 1.5rem;
- height: 80%;
- justify-content: space-evenly;
+ height: 100%;
+ justify-content: space-between;
 }
 #premierligne {
   display: flex;
@@ -182,12 +213,22 @@ figcaption{
     box-sizing: border-box;
 }
 .photosA {
-  height: 70px;
+  height: 7rem;
   object-fit: cover;
+  max-width: 100%;
   width: 100%;
-  max-width: 99%;
-  border-radius: 5px;
+  max-height: 100%;
+  border-radius: 1rem 1rem 0 0;
  
+}
+
+.titretextA{
+  margin: 0.25rem 0.75rem 0 0.75rem;
+  font-size: 14px;
+}
+.prixtexteA{
+  margin: 0.25rem 0.75rem 0.25rem 0.75rem;
+  font-size: 10px;
 }
 #deuxiemligne {
   display: flex;
@@ -208,30 +249,69 @@ figcaption{
   padding-right: 32px;
   padding-top: 8px;
   width: 20%;
-  height: 80%;
+  height: 96%;
   border-radius: 1.5rem;
   justify-content: space-evenly;
 }
 .BulleB {
-  display: flex;
-  justify-content: space-between;
-  border-bottom-left-radius: 24px;
-  border-bottom-right-radius: 24px;
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-  height: 140px;
+  background-color: white;
+  padding: 0.375rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002e;
+  transition-duration: 0.1s;
   cursor: pointer;
+  box-sizing: border-box;
+ 
 }
-.photosB {
-  width: 90px;
-  height: 70px;
+.BulleBglobalB{
+  display: flex;
+align-items: stretch;
+height: 100%;
+overflow: auto;
+}
+a{
+  color: inherit;
+text-decoration: none;
+background-color: transparent;
+}
+.photoB{
+  position: relative;
+min-height: 100%;
+width: 33%;
+min-width: 33%;
+max-width: 33%;
+}
+.photosbulleB{
+  border-radius: 1rem 0 0 1rem;
+position: absolute;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.texteBglobal{
+  display: flex;
+flex-direction: column;
+}
+.titretextB{
+  margin: 0.25rem 0.75rem 0 0.75rem;
+}
+.prixtexteB{
+  margin: 0.25rem 0.75rem 0.25rem 0.75rem;
+}
+.prixbulleB{
+  font-weight: bold;
+}
+.espaceblanc{
+  flex: 1;
+}
+.etoileB{
+  margin: 0 0.75rem 0.25rem 0.75rem;
 }
 #contenerGloba2 {
   display: flex;
   width: 100%;
   height: 30rem;
 }
-
 #case3 {
   display: flex;
   border-bottom-left-radius: 24px;
@@ -243,6 +323,9 @@ figcaption{
   padding-right: 32px;
   padding-top: 8px;
   width: 50%;
+}
+.photosC{
+  height: 7rem;
 }
 #case4 {
   border-bottom-left-radius: 24px;
@@ -256,7 +339,6 @@ figcaption{
   width: 50%;
   display: flex;
 }
-
 #conteneurGlobal3{
   display: flex;
   justify-content: space-around;
@@ -270,7 +352,6 @@ figcaption{
   margin: 1rem 0;
   width: 25%;
   margin-left: 50px;
-
 }
 .footer2{
   display: flex;
@@ -278,7 +359,6 @@ figcaption{
   margin: 1rem 0;
   width: 25%; 
   margin-left: 50px;
-
 }
 .footer3{
   display: flex;
@@ -286,7 +366,6 @@ figcaption{
   margin: 1rem 0;
   width: 25%;
   margin-left: 50px;
-
 }
 a{
   color: inherit;
