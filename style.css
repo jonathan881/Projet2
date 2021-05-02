@@ -27,6 +27,8 @@ h1 {
 }
 h3{
   font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .header {
   display: flex;
@@ -38,14 +40,18 @@ h3{
 .headerNav1{
   border-top: 3px solid #0065FC;
   padding: 2rem;
+  font-weight: bold;
+  color: blue;
 }
 
 .headerNav2:hover{
   border-top: 3px solid #0065FC;
   padding: 2rem;
+  color: blue;
 }
 .headerNav2{
   padding: 2rem;
+  font-weight: bold;
 }
 .headerNav{
   padding: 2rem;
@@ -57,6 +63,8 @@ text-align: center;
 }
 .headerSignup{
   padding: 2rem;
+  color: blue;
+    font-weight: bold;
 }
 .barregeneral{
   display: flex;
@@ -66,6 +74,7 @@ background-color: #F2F2F2;
 padding: 1rem 1.25rem;
 border-radius: 1rem 0 0 1rem;
 text-align: center;
+cursor: pointer;
 }
 .barrederecherche {
   border-right: none;
@@ -189,20 +198,14 @@ margin-right: 1rem;
 figure{
   margin: auto;
   width: 95%;
-  text-align: center;
+  
  
 }
-figcaption{
-  text-align: center;
 
-}
 .BulleA {
   display: flex;
     justify-content: space-between;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
+    border-radius: 1.25rem;
     width: 30%;
     background-color: #FFFFFF;
     height: 100%;
@@ -213,12 +216,12 @@ figcaption{
     box-sizing: border-box;
 }
 .photosA {
-  height: 7rem;
+  height: 6rem;
   object-fit: cover;
   max-width: 100%;
   width: 100%;
   max-height: 100%;
-  border-radius: 1rem 1rem 0 0;
+  border-radius: 1.25rem 1.25rem 0 0;
  
 }
 
@@ -261,7 +264,11 @@ figcaption{
   transition-duration: 0.1s;
   cursor: pointer;
   box-sizing: border-box;
- 
+  height: 25%;
+  margin-bottom: 15%;
+}
+.ligneB{
+  height: 100%;
 }
 .BulleBglobalB{
   display: flex;
@@ -283,7 +290,6 @@ max-width: 33%;
 }
 .photosbulleB{
   border-radius: 1rem 0 0 1rem;
-position: absolute;
 width: 100%;
 height: 100%;
 object-fit: cover;
