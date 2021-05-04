@@ -36,15 +36,12 @@ h3{
 .headerlien{
   display: flex;
 }
-.headerNav1{
+.headerNav:hover{
   border-top: 3px solid #0065FC;
+}
+.headerNav1{
   padding: 2rem;
   font-weight: bold;
-  color: blue;
-}
-.headerNav2:hover{
-  border-top: 3px solid #0065FC;
-  padding: 2rem;
   color: blue;
 }
 .headerNav2{
@@ -195,10 +192,13 @@ h3{
 }
 figure{
   margin: auto;
-  width: 100%;
+  
 }
 .BulleA:hover{
   transform: scale(1.01);
+}
+.BulleA a {
+  width: 100%;
 }
 .BulleA {
   display: flex;
@@ -242,7 +242,8 @@ figure{
 }
 .afficherplus{
   margin-bottom: 20px;
-  width: 15%;
+  width: fit-content;
+  width: -moz-fit-content;
   font-weight: bold;
 }
 #case2 {
@@ -286,7 +287,6 @@ figure{
   display: flex;
   align-items: stretch;
   height: 100%;
-  overflow: auto;
 }
 a{
   color: inherit;
