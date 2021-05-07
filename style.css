@@ -505,7 +505,7 @@ a{
 
 
 
-@media all and (max-width: 769px) {
+@media all and (max-width: 769px) and (min-width: 380px) {
 body{
   width: 100%;
   padding-left: 10px;
@@ -529,6 +529,8 @@ h1{
 }
 #Hébergement{
   margin-left: 15px;
+  margin-bottom: 20px;
+  margin-top: 15px;
 }
 #case1{
   width: 95%;
@@ -556,12 +558,13 @@ h1{
   width: 100%;
   margin-left: 16px;
 }
+.BulleBglobalB{
+  height: 135px;
+}
 .ligneB{
   width: 95%;
 }
-.photoB{
-  
-}
+
 h4{
   font-size: 13px;
 }
@@ -718,6 +721,8 @@ h1 {
 }
 #Hébergement{
   margin-left: 15px;
+  margin-bottom: 5px;
+  margin-top: 50px;
 }
 #case2 {
   background-color: #F2F2F2;
