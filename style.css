@@ -35,6 +35,8 @@ h3{
 }
 .headerlien{
   display: flex;
+  position: absolute;
+    right: 8rem;
 }
 .headerNav:hover{
   border-top: 3px solid #0065FC;
@@ -116,6 +118,7 @@ h3{
   cursor: pointer;
   height: 50px;
   margin: 5px;
+  width: fit-content;
 }
 .Filtresroman, .Filtresanimaux, .Filtreseco, .Filtresefami{
   display: flex;
@@ -337,7 +340,7 @@ a{
 .etoileB{
   margin: 0 0.75rem 0.25rem 0.75rem;
 }
-#contenerGloba2 {
+#contenerGlobal2 {
   display: flex;
   width: 100%;
   height: 30rem;
@@ -502,6 +505,77 @@ a{
 
 
 
+@media all and (max-width: 769px) {
+body{
+  width: 100%;
+  padding-left: 10px;
+  border-right-width: 10px;
+  padding-right: 10px;
+}
+.headerSignup{
+  margin-right: 10px;
+}
+h1{
+  width: 95%;
+}
+.rechercheFiltres{
+  width: 95%;
+  flex-wrap: wrap;
+}
+#contenerGlobal{
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+}
+#Hébergement{
+  margin-left: 15px;
+}
+#case1{
+  width: 95%;
+  margin-bottom: 25px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+.afficherplus{
+  margin-top: 20px;
+  margin-left: 15px;
+}
+#case2{
+  width: 95%;
+  margin-bottom: 25px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+
+}
+.lespluspopulaire{
+  width: 100%;
+  margin-left: 16px;
+}
+.BulleB{
+  margin-bottom: 5%;
+  width: 100%;
+  margin-left: 16px;
+}
+.ligneB{
+  width: 95%;
+}
+.photoB{
+  
+}
+h4{
+  font-size: 13px;
+}
+#contenerGlobal2{
+  width: 95%;
+  height: 28rem;
+}
+.photoAA{
+  height: 88%;
+}
+.vieuxport{
+  margin-left: 0px;
+}
+}
 
 
 
@@ -509,26 +583,45 @@ a{
 
 
 
-
-@media all and (max-width: 474px) {
-  body{
-    margin: 0px;
+@media all and (max-width: 376px) {
+body{
+  margin: 0px;
   }
-  #bloc_page{
-    width: 100%;
-    height: auto;
+#bloc_page{
+  width: 100%;
+  height: auto;
   }
-  .header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 #logo_reservia{
   margin-left: 15px;
 }
+.headerSignup{
+  position: absolute;
+  right: 1rem;
+  height: auto;
+}
 .headerlien {
   display: flex;
   flex-direction: column;
+  position: initial;
+  flex-direction: initial;
+  width: 100%;
+  height: auto;
+}
+.headerNav{
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.headerNav1{
+  border-bottom: 3px solid;
+}
+.headerNav2{
+  border-bottom: 3px solid #f2f2f2;
 }
 h1 {
   margin-left: auto;
@@ -540,8 +633,8 @@ h1 {
 .centre_ville{
   margin-left: 15px;
 }
-  .rechercheFiltres{
-    display: block;
+.rechercheFiltres{
+  display: block;
   }
 .barrederecherche{
   padding-left: 15px;
@@ -567,11 +660,11 @@ h1 {
   margin-right: 15px;
 }
 #contenerGlobal{
-    display: flex;
-    flex-direction: column-reverse;
-    width: 100%;
-    height: auto;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column-reverse;    
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
   }
   #case1 {
     border-bottom-left-radius: 24px;
@@ -604,9 +697,9 @@ h1 {
   height: 30%;
 }
 .afficherplus {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
 }
 
 .BulleA {
@@ -656,7 +749,7 @@ h1 {
   margin-left: 15px;
   margin-right: 15px;
 }
-#contenerGloba2 {
+#contenerGlobal2 {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -681,16 +774,16 @@ h1 {
   margin-bottom: 2px;
 }
 .photoAA {
-    width: 100%;
-    height: 130px;
-    object-fit: cover;
-    border-radius: 1.25rem 1.25rem 0 0;
+  width: 100%;    
+  height: 130px;
+  object-fit: cover;
+  border-radius: 1.25rem 1.25rem 0 0;
 }
 .photosBB {
   width: 100%;
-    height: 130px;
-    object-fit: cover;
-    border-radius: 1.25rem 1.25rem 0 0;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 1.25rem 1.25rem 0 0;
 }
 .photosCC{
   width: 100%;
