@@ -195,8 +195,7 @@ h3{
   justify-content: space-around;
 }
 figure{
-  margin: auto;
-  
+  margin: auto; 
 }
 .BulleA:hover{
   transform: scale(1.01);
@@ -225,17 +224,25 @@ figure{
   max-height: 100%;
   border-radius: 1.25rem 1.25rem 0 0;
 }
-.titretextA{
+.titretextA {
   margin: 0.25rem 0.75rem 0 0.75rem;
   font-size: 14px; 
 }
-.prixtexteA{
+.prixtexteA {
   margin: 0.25rem 0.75rem 0.25rem 0.75rem;
   font-size: 10px;
 }
 .etoileA{
-  margin: 0 0.75rem 0.25rem 0.75rem;
+  margin-left: 10px;
+}
+.etoileA, .i_bleu {
+  
   display: flex;
+  color: blue;
+}
+.etoileA, .i_gris {
+  color: gray;
+  
 }
 #deuxiemligne {
   display: flex;
@@ -361,7 +368,6 @@ a{
   height: 30px;
   font-weight: bold;
   margin: 8px 0px 0px 15px;
-
 }
 .blocA:hover{
   transform: scale(1.01);
@@ -502,9 +508,6 @@ a{
 }
 
 
-
-
-
 @media all and (max-width: 769px) and (min-width: 380px) {
 body{
   width: 100%;
@@ -547,7 +550,6 @@ h1{
   margin-bottom: 25px;
   padding-left: 0px;
   padding-bottom: 0px;
-
 }
 .lespluspopulaire{
   width: 100%;
@@ -564,7 +566,6 @@ h1{
 .ligneB{
   width: 95%;
 }
-
 h4{
   font-size: 13px;
 }
@@ -579,11 +580,6 @@ h4{
   margin-left: 0px;
 }
 }
-
-
-
-
-
 
 
 @media all and (max-width: 376px) {
@@ -670,20 +666,20 @@ h1 {
   justify-content: space-between;
   }
   #case1 {
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    padding-bottom: 1%;
-    padding-left: 0px;
-    padding-right: 0px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 0px;
-    height: 100%;
-    justify-content: space-between;
-    width: 100%;
-    background-color: #FFFFFF;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  padding-bottom: 1%;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px;
+  height: 100%;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #FFFFFF;
 }
 #premierligne {
   display: flex;
