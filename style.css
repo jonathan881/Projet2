@@ -40,6 +40,7 @@ h3{
 }
 .headerNav:hover{
   border-top: 3px solid #0065FC;
+  margin-top: -3px;
 }
 .headerNav1{
   padding: 2rem;
@@ -280,7 +281,7 @@ figure{
   margin-top: 6px;
 } 
 
-#Activités{
+#Activites{
   margin-top: 39px;
     margin-bottom: 10px;
     margin-left: 15px;
@@ -347,7 +348,7 @@ a{
   width: 100%;
   height: 30rem;
 }
-.h2_activités{
+.h2_activites{
   margin-top: 60px;
   margin-bottom: 6px;
 }
@@ -507,7 +508,7 @@ a{
 }
 
 
-@media all and (max-width: 770px) and (min-width: 380px) {
+@media all and (max-width: 770px) and (min-width: 500px) {
 body{
   width: 100%;
   border-right-width: 10px;
@@ -533,7 +534,7 @@ h1{
   height: auto;
   flex-direction: column;
 }
-#Hébergement{
+#Hebergement{
   margin-left: 15px;
   margin-bottom: 20px;
   margin-top: 15px;
@@ -585,7 +586,7 @@ h4{
 }
 
 
-@media all and (max-width: 376px) {
+@media all and (max-width: 500px) {
 body{
   margin: 0px;
   }
@@ -721,7 +722,7 @@ h1 {
   transition-duration: 0.1s;
   box-sizing: border-box;
 }
-#Hébergement{
+#Hebergement{
   margin-left: 15px;
   margin-bottom: 5px;
   margin-top: 50px;
