@@ -3,6 +3,7 @@
   src: url(/fonts/raleway/Raleway-Regular.ttf);
   font-weight: normal;
 }
+
 body {
   font-family: 'Raleway', Verdana, sans-serif;
   width: 99%;
@@ -24,7 +25,7 @@ h1 {
   margin-bottom: 0.67em;
 }
 h3{
-  font-size: 15px;
+  font-size: 13px;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 12px;
@@ -45,11 +46,12 @@ h3{
 .headerNav1{
   padding: 2rem;
   font-weight: bold;
-  color: blue;
+  color: #0065FC;
 }
 .headerNav2{
   padding: 2rem;
   font-weight: bold;
+  margin-right: 32px;
 }
 .headerNav{
   padding: 2rem;
@@ -61,7 +63,7 @@ h3{
 }
 .headerSignup{
   padding: 2rem;
-  color: blue;
+  color: #0065FC;
   font-weight: bold;
 }
 .barregeneral{
@@ -100,10 +102,13 @@ h3{
   padding: 0 1.5rem;
   cursor: pointer;
 }
+.bouttonrecherche_loupe{
+  display: none;
+}
 .rechercheFiltres{
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 80%;
   display: flex;
   margin-top: 2rem;
 }
@@ -127,7 +132,7 @@ h3{
 .Filtresroman, .Filtresanimaux, .Filtreseco, .Filtresefami{
   display: flex;
   align-items: center;
-  margin-right: 2rem;
+  margin-right: 0px;
   font-weight: bold;
 }
 .Filtresecologo{
@@ -161,7 +166,7 @@ h3{
 }
 .fa, .fas {
   font-weight: 900;
-  color: blue;
+  color: #0065FC;
 }
 #contenerGlobal {
   display: flex;
@@ -209,7 +214,6 @@ figure{
   border-radius: 1.25rem;
   width: 30%;
   background-color: #FFFFFF;
-  height: 100%;
   cursor: pointer;
   padding: 0.270rem;
   box-shadow: 0px 0px 16px #0000002e;
@@ -236,7 +240,7 @@ figure{
 .etoileA, .i_bleu {
   
   display: flex;
-  color: blue;
+  color: #0065FC;
 }
 .etoileA, .i_gris {
   color: gray;
@@ -569,7 +573,17 @@ h4{
   margin-left: 0px;
 }
 }
-
+@media all and (max-width: 731px) and (min-width: 500px) {
+  h3 {
+    font-size: 12px;
+  }
+  .titretextB {
+    font-size: 17px;
+  }
+  .etoileA {
+    font-size: 13px;
+  }
+}
 
 @media all and (max-width: 500px) {
 body{
@@ -606,7 +620,7 @@ body{
 }
 .headerNav:hover{
   border-top: 3px solid transparent;
-  border-bottom: 3px solid blue;
+  border-bottom: 3px solid #0065FC;
 }
 .headerNav1{
   border-bottom: 3px solid;
@@ -615,17 +629,26 @@ body{
   border-bottom: 3px solid #f2f2f2;
 }
 h1 {
-  margin-left: auto;
+  font-size: 20px;
+  margin-left: 15px;
   margin-right: auto;
-  font-size: 27px;
-  margin-bottom: 0.67em;
-  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 25px;
+  text-align: left;
 }
 .centre_ville{
   margin-left: 15px;
+  margin-bottom: 35px;
 }
 .rechercheFiltres{
   display: block;
+  }
+.rechercheFiltresTitre {
+    font-size: 19px;
+  }
+  .filtregeneral{
+    margin-right: 0px;
+    margin-left: 0px;
   }
 .barrederecherche{
   padding-left: 15px;
@@ -711,6 +734,8 @@ h1 {
   margin-left: 15px;
   margin-bottom: 5px;
   margin-top: 50px;
+  text-align: left;
+  font-size: 22px;
 }
 #case2 {
   background-color: #F2F2F2;
@@ -741,6 +766,7 @@ h1 {
 .lespluspopulaire{
   margin-left: 15px;
   margin-right: 15px;
+  font-size: 22px;
 }
 #contenerGlobal2 {
   display: flex;
@@ -781,6 +807,9 @@ h1 {
 .photosCC{
   width: 100%;
   height: 130px;
+}
+#Activites {
+  font-size: 22px;
 }
 .blocB {
   width: 100%;
@@ -834,6 +863,49 @@ h1 {
 }
 .footercase1{
   margin-bottom: 8px;
+}
+}
+
+@media all and (max-width: 280px) {
+.headerSignup {
+  right: 0px;
+  padding-right: 15px;
+}
+.headerNav, .headerNav2 {
+  padding-left: 10px;
+  padding-right: 10px;
+}  
+h1 {
+  font-size: 15px;
+}
+.resultatrecherche {
+  font-size: 10px;
+}
+.centre_ville {
+  font-size: 11px;
+}
+.lespluspopulaire {
+  font-size: 18px;
+}
+.titretextB {
+  margin-right: 0px;
+}
+#Hebergement {
+  font-size: 16px;
+}
+.BulleA a {
+  width: 100%;
+  height: 163px;
+}
+#Activites {
+  font-size: 18px;
+}
+.figcaptioncase3 {
+  height: 40px;
+  margin: 14px 0px 0px 15px;
+}
+.footer1, .footer2, .footer3 {
+  margin-left: 15px;
 }
 }
 
