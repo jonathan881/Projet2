@@ -221,7 +221,7 @@ figure{
   box-sizing: border-box;
 }
 .photosA {
-  height: 6rem;
+  height: 7rem;
   object-fit: cover;
   width: 100%;
   border-radius: 1.25rem 1.25rem 0 0;
@@ -497,7 +497,7 @@ a{
   text-decoration: none;
 }
 
-@media all and (max-width: 770px) and (min-width: 500px) {
+@media all and (max-width: 995px) and (min-width: 500px) {
 body{
   width: 100%;
   border-right-width: 10px;
@@ -515,7 +515,7 @@ h1{
   width: 95%;
 }
 .rechercheFiltres{
-  width: 75%;
+  width: 95%;
   flex-wrap: wrap;
 }
 #contenerGlobal{
@@ -554,7 +554,7 @@ h1{
   margin-left: 16px;
 }
 .BulleBglobalB{
-  height: 135px;
+  height: 100%;
 }
 .ligneB{
   width: 95%;
@@ -583,9 +583,12 @@ h4{
   .etoileA {
     font-size: 13px;
   }
+  .headerNav, .headerNav2 {
+    margin-right: 0px;
+  }
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 545px) and (min-width: 500px){
 body{
   margin: 0px;
   }
@@ -627,6 +630,7 @@ body{
 }
 .headerNav2{
   border-bottom: 3px solid #f2f2f2;
+  margin-right: 0px;
 }
 h1 {
   font-size: 20px;
@@ -658,6 +662,10 @@ h1 {
   width: 40%;
   padding-left: 0px;
   padding-right: 5px;
+  display: none;
+}
+.bouttonrecherche_loupe{
+  display: block;
 }
 .barregeneral{
   margin-left: 15px;
@@ -866,7 +874,7 @@ h1 {
 }
 }
 
-@media all and (max-width: 280px) {
+@media all and (max-width: 550px) {
 .headerSignup {
   right: 0px;
   padding-right: 15px;
