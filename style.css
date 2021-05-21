@@ -588,7 +588,7 @@ h4{
   }
 }
 
-@media all and (max-width: 545px) and (min-width: 500px){
+@media all and (max-width: 545px) {
 body{
   margin: 0px;
   }
